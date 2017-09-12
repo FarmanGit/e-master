@@ -1,0 +1,8 @@
+displayname: python
+extensions: .*\.py
+pragma: (from|import)
+keyword: (and|as|assert|break|continue|def|del|elif|else|except|exec|finally|for|global|if|in|is|lambda|not|or|pass|raise|return|try|while|with|yield)
+type: (class|int|tuple|id|float|str|unicode|list|dict)
+predefined: (print|True|False|None)
+comment: #.*$
+type: @[^\(]*
